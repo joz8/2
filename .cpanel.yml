@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH1=/home/seo88/public_html/g2
+    - /bin/cp -R aset/img/g2 $DEPLOYPATH1
+    
+    - export DEPLOYPATH_CPANEL=/home/rrrrr/public_html/r2
+    - /bin/cp -R aset/img/r2 $DEPLOYPATH_CPANEL
